@@ -28,6 +28,20 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+		//--- canvas camera start
+	     //Call the initialize() function with canvas element reference
+		     var objCanvas = document.getElementById('canvas');
+		         window.plugin.CanvasCamera.initialize(objCanvas);
+		   //           window.plugin.CanvasCamera is now available	
+
+				 
+			var options = {
+			cameraPosition: 'front',
+			};
+			window.plugin.CanvasCamera.start(options);
+            
+
+		// camvas camera end
     },
 
     // Update DOM on a Received Event

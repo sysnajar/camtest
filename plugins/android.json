@@ -12,6 +12,9 @@
         },
         "phonegap-plugin-barcodescanner": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "com.virtuoworks.cordova-plugin-canvascamera": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {
